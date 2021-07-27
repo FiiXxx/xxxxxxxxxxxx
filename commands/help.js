@@ -11,19 +11,24 @@ module.exports = {
     let helpEmbed = new MessageEmbed()
     .setTitle(`**Hyper Music  Commands**`)
     .setThumbnail("https://media.tenor.com/images/3145445a2c5bde03ac708c2c309fdbca/tenor.gif")
+    .setColor("RANDOM")
     .setAuthor("Prefix [ $ ]","")
     .setDescription(` 
 \`Help Commands\`
 
 **Music Command**
 
-\` $paly , $stop , $skip , $skipto , $volume \`
+\` $paly , $stop ,
+ $skip , $skipto , $volume \`
 
-\` $queue , $loop , $pause , $nowplaying \`
+\` $queue , $loop 
+, $pause , $nowplaying \`
 
-\` $shuffle , $uptime , $search , $remove \`
+\` $shuffle , $uptime ,
+ $search , $remove \`
 
-\` $clip , $clips , $lyrics , $move , $playlist \`
+\` $clip , $clips , $lyrics , 
+$move , $playlist \`
 
 **Info Command**
 
